@@ -1,0 +1,23 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+button,
+input {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+body {
+  background: #222;
+}

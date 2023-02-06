@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Buscar Temperatura</h1>
+    <input id="input__buscar__cidade" placeholder="Digite o nome da cidade" />
+    <button id="button__buscar__cidade" onclick="buscar()">
+      Procurar cidade
+    </button>
+    <div class="card">
+      <h1 id="nome__cidade"></h1>
+      <h3 id="temperatura__cidade"></h3>
+      <h3 id="descricao__cidade"></h3>
+      <h3 id="umidade__cidade"></h3>
+      <h3 id="temperatura__max__cidade"></h3>
+      <h3 id="temperatura__min__cidade"></h3>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
